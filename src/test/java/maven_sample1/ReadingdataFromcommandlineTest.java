@@ -6,6 +6,7 @@ public class ReadingdataFromcommandlineTest {
 	@Test(groups="smoke")
 	public void readingdataFromcmdlinetest()
 	{
+		System.out.println("execute pollscm");
 		String URL=System.getProperty("url");
 		String UN=System.getProperty("username");
 		String PWD=System.getProperty("password");
